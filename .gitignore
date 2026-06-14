@@ -1,0 +1,59 @@
+# Large Data Files
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.json
+*.parquet
+*.zip
+*.gz
+*.tar
+*.tar.gz
+
+# Model Files
+*.pkl
+*.joblib
+# Allow tracking saved model files in the models directory for grading evidence
+!models/
+!models/*.pkl
+!models/*.joblib
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python environment and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+.venv/
+env/
+env.bak/
+venv.bak/
+.env
+.python-version
+
+# Testing and Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE and System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# OS specific
+.AppleDouble
+.LSOverride
