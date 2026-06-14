@@ -198,7 +198,7 @@ honest, leakage-free results.
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR-USERNAME/fraud-detection.git
+git clone https://github.com/FreweyniGerezgiher/Fraud-detection-bank-week-5-6
 cd fraud-detection
 
 # 2. Create virtual environment
